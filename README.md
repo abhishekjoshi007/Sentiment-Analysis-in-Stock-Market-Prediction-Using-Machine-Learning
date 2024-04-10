@@ -11,8 +11,8 @@ The FTSE 100 share index comprises the top 100 blue chip companies by market cap
 ## Exploratory Data Analysis
 The [yfinance API](https://github.com/ranaroussi/yfinance) will be used to download stock data for opening price (Open), highest and lowest price the stock traded at (High, Low), closing price (Close), number of stocks traded (Volume) and Adjusted Close. For the most part the Adjusted Close price will be selected for prediction purposes to take into account all corporate actions, such as stock splits and dividends, to give a more accurate reflection of the true value of the stock and present a coherent picture of returns.
 
-![Adjusted Close price chart for six FTSE 100 stocks with two different scales](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/adjusted-close-price.png?raw=true)
-https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/adjusted-close-price.png?raw=true
+![Adjusted Close price chart for six FTSE 100 stocks with two different scales](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/adjusted-close-price.png?raw=true)
+
 
 Data will be transformed to calculate and visualise returns, and covariance and correlation matrices will show strength and direction of the relationship between stocks' returns. These observations could be used to select a portfolio of stocks that complement each other in terms of price movement.
 
