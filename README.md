@@ -19,32 +19,32 @@ Data will be transformed to calculate and visualise returns, and covariance and 
 ## Technical Analysis
 Technical analysis is the use of charts and technical indicators to identify trading signals and price patterns. Various technical strategies will be investigated using the most common leading and lagging trend, momentum, volatility and volume indicators including Moving Averages, Moving Average Convergence Divergence (MACD), Stochastic Oscillator, Relative Strength Index (RSI), Money Flow Index (MFI), Rate of Change (ROC), Bollinger Bands, and On-Balance Volume (OBV).
 
-![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Imagexs/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
+![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Imagexs/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
 
 ## Time Series
 A time series is basically a series of data points ordered in time and is an important factor in predicting stock market trends. In time series forecasting models, time is the independent variable and the goal is to predict future values based on previously observed values.
 
 Stock prices are often non-stationary and may contain trends or volatility but different transformations can be applied to turn the time series into a stationary process so that it can be modelled.
 
-![Autocorrelation Function and Partial Autocorrelation Function plots before differencing](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-before-differencing.png?raw=true)
+![Autocorrelation Function and Partial Autocorrelation Function plots before differencing](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-before-differencing.png?raw=true)
 
 The Augmented Dickey-Fuller (ADF) test will be used to check for stationarity, and the order of differencing required to make the series stationary will be determined.
 
-![Plot of daily changes in AztraZeneca Adjusted Close Price after first order of differencing](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/plot-of-daily-changes-in-aztrazeneca-adjusted-close-price-after-first-order-of-differencing.png?raw=true)
+![Plot of daily changes in AztraZeneca Adjusted Close Price after first order of differencing](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/plot-of-daily-changes-in-aztrazeneca-adjusted-close-price-after-first-order-of-differencing.png?raw=true)
 
 Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots will show whether transformations have removed seasonality and any non-stationary behaviours - a necessary step before focusing on autoregressive time series models.
 
-![Autocorrelation Function and Partial Autocorrelation Function plots after first order differencing](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-after-differencing.png?raw=true)
+![Autocorrelation Function and Partial Autocorrelation Function plots after first order differencing](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/acf-and-pacf-plots-of-aztrazeneca-adjusted-close-price-after-differencing.png?raw=true)
 
 Models to be evaluated will include Moving Averages, Auto-Regressive Integrated Moving Average (ARIMA), Seasonal Auto-Regressive Integrated Moving Average (SARIMA) and Facebook Prophet.
 
-![SARIMA model - Fit to training data and forecast vs actual test values](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/sarima-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values-and-confidence-interval.png?raw=true)
+![SARIMA model - Fit to training data and forecast vs actual test values](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/sarima-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values-and-confidence-interval.png?raw=true)
 
-![Facebook Prophet - Forecast vs actual test values and changepoints](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/facebook-prophet-forecast-vs-actual-test-values-and-changepoints.png?raw=true)
+![Facebook Prophet - Forecast vs actual test values and changepoints](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/facebook-prophet-forecast-vs-actual-test-values-and-changepoints.png?raw=true)
 
 Recurrent Neural Network (RNN) models such as Simple RNN, Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) will also be explored and various machine learning and deep learning models created, trained, tested and optimised.
 
-![LSTM model - Fit to training data and forecast vs actual test values](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/lstm-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values.png?raw=true)
+![LSTM model - Fit to training data and forecast vs actual test values](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/lstm-plot-of-fit-to-training-data-and-forecast-vs-actual-test-values.png?raw=true)
 
 ## Sentiment Analysis
 News articles will be collected from [Investing.com ](https://uk.investing.com/) by web scraping using Selenium and Beautiful Soup. Sentiment analysis will then be performed using NLP tools such as NLTK's VADER and TextBlob to find sentiment scores before combining the results with historical stock price data to determine whether news sentiment influences stock price direction.
@@ -54,7 +54,7 @@ Predicting the stock market will be posed both as a regression problem of price 
 
 The X matrix of features will comprise any additional features engineered from the Adjusted Close price. For the regression problem, the y vector of the target variable will be the Adjusted Close price offset by however many days in advance we want to predict. For the classification problem it will be Buy and Sell signals, or 1 if the price will increase 'n' days in the future, and 0 if it will decrease, respectively.
 
-![Gaussian Naive Bayes and Gradient Boosting Classifier Confusion Matrices](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/classifier-confusion-matrices.png?raw=true)
+![Gaussian Naive Bayes and Gradient Boosting Classifier Confusion Matrices](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/classifier-confusion-matrices.png?raw=true)
 
 To avoid look-ahead bias when splitting time series data into training and test sets sklearn's TimeSeriesSplit() class will be used. Successive training sets are supersets of those that come before them so that the model is not trained on data it has already seen. To use randomised data rather than walk-forward validation would lead to overfitting.
 
