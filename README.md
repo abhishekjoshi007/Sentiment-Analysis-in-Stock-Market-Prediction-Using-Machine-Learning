@@ -12,13 +12,14 @@ The FTSE 100 share index comprises the top 100 blue chip companies by market cap
 The [yfinance API](https://github.com/ranaroussi/yfinance) will be used to download stock data for opening price (Open), highest and lowest price the stock traded at (High, Low), closing price (Close), number of stocks traded (Volume) and Adjusted Close. For the most part the Adjusted Close price will be selected for prediction purposes to take into account all corporate actions, such as stock splits and dividends, to give a more accurate reflection of the true value of the stock and present a coherent picture of returns.
 
 ![Adjusted Close price chart for six FTSE 100 stocks with two different scales](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/adjusted-close-price.png?raw=true)
+https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/adjusted-close-price.png?raw=true
 
 Data will be transformed to calculate and visualise returns, and covariance and correlation matrices will show strength and direction of the relationship between stocks' returns. These observations could be used to select a portfolio of stocks that complement each other in terms of price movement.
 
 ## Technical Analysis
 Technical analysis is the use of charts and technical indicators to identify trading signals and price patterns. Various technical strategies will be investigated using the most common leading and lagging trend, momentum, volatility and volume indicators including Moving Averages, Moving Average Convergence Divergence (MACD), Stochastic Oscillator, Relative Strength Index (RSI), Money Flow Index (MFI), Rate of Change (ROC), Bollinger Bands, and On-Balance Volume (OBV).
 
-![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Images/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
+![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/alisonmitchell/Stock-Prediction/blob/main/Imagexs/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
 
 ## Time Series
 A time series is basically a series of data points ordered in time and is an important factor in predicting stock market trends. In time series forecasting models, time is the independent variable and the goal is to predict future values based on previously observed values.
