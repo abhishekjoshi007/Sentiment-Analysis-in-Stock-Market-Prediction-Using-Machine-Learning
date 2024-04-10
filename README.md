@@ -19,7 +19,7 @@ Data will be transformed to calculate and visualise returns, and covariance and 
 ## Technical Analysis
 Technical analysis is the use of charts and technical indicators to identify trading signals and price patterns. Various technical strategies will be investigated using the most common leading and lagging trend, momentum, volatility and volume indicators including Moving Averages, Moving Average Convergence Divergence (MACD), Stochastic Oscillator, Relative Strength Index (RSI), Money Flow Index (MFI), Rate of Change (ROC), Bollinger Bands, and On-Balance Volume (OBV).
 
-![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Imagexs/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
+![AstraZeneca Adjusted Close Price and 9-day ROC for last 100 days of 2019](https://github.com/abhishekjoshi007/Sentiment-Analysis-in-Stock-Market-Prediction-Using-Machine-Learning/blob/main/Images/astrazeneca-adjusted-close-price-and-9-day-roc-for-last-100-days-of-2019.png?raw=true)
 
 ## Time Series
 A time series is basically a series of data points ordered in time and is an important factor in predicting stock market trends. In time series forecasting models, time is the independent variable and the goal is to predict future values based on previously observed values.
